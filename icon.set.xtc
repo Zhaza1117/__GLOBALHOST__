@@ -1,0 +1,14 @@
+AL_FIN(__GLOBALHOST__::__reg__){ICO.ZZZ.NETWORK__set:xcopy != errorlevel;}::__LOAD__::__system__(args){
+	@NIMROD:_()@ @#% args::__Sys32bit::()__system__:!=__failsafe__;
+	Q-BIT(__MATRIX__){
+		01, 11, 00, 10, 10, 11, 00, 01,
+		11, 01, 10, 01, 11, 01, 10, 00,
+		10, 00, 01, 01, 00, 01, 00, 11,
+		01, 00, 00, 01, 10, 01, 11, 00
+	}
+	
+	__MATRIX__=> µ¶Ø¬©NIMROD
+	__DATAMINER__::__BOTNET__:!+µ¶Ø¬©NIMROD
+	__CLOCK__:@!op!a_ @_ all FORMAT::(µ¶Ø¬©NIMROD):: __xcopy != errorlevel;
+	
+}

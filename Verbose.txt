@@ -1,0 +1,69 @@
+/*** 
+*
+--
+	Code in Object Worth Mentioning
+	
+	Test ping on proxy internet protocol, 
+	Check shell is open, 
+	Hide shell in background verbose gui,
+	
+	SHELL:=@VARS:?_#[0 || 1]
+	if SHELL = 0_@(__shell_hibernate.rtc)
+	if SHELL + 1_@(__shell_wait_upon_activity.rtc)
+	
+	SHELL:+=_#[0 || 1]
+	
+	ping proxy_address -n 512
+	arp -a >> proxy_address
+	proxy_address >> ipconfig -v 0.0.0.0
+	ping 0.0.0.0 -n 1024
+	
+	powershell -*/ \*.* -~//>_usr:=root@admin.mil
+	powershell >> ping 0.0.0.0 -n 1024
+	
+	
+*/
+
+/*
+	-----------------| Hibernation |------------------
+	Lay to rest botnet into hibernation mode. Sleeper Cells.
+	Botnet Network. A Network of Networks. Each Parreal Processing
+	Crawler and Executioner, in line by line real time write, read,
+													write, update code compiler.
+													
+						What is AL_FIN()?
+						Obvesouly its a Function.
+						The Botnet Code Crawler.
+						Some Where there is a computer.
+						That Computer has Source Code.
+						Even Dynamic Link Libaries.
+						
+			AL_FIN crawls Botnet Networks than uploads a signature for possible function execution.
+			Think of it like a Crypto-Manager yet Execute any arrangements of developed software.
+			Paramenters of a software, the code even if so and if not so reverse engineered.
+			
+			THe closest thing to plaintext code execution. Program Scrapping and Debug realtime.
+			I smell burning wood. ALL THEM TROJAN HORSES!!! SO MANY BACK DOORS!!!
+			
+			IT'S........... LIKE........... THE Internet!!!!
+			Even computers that are not even connected to a local distributor.
+			
+			The Crawler acts like a Crypto-Manager that Executes Code at ADMIN or ROOT privilliges.
+			AS thu the KEY LOGGER is printing the CRAWLER METADATE into subjected SHELLS.
+			
+			So AL_FIN(__GLOBALHOST__){ --------------------------------------- }
+			
+			Like := ARGS(){
+			
+			REM :_@args(AL_FIN(__GLOBALHOST__)):_@(_:#__HOST__::_$[%HOSt%]){ [GOTO %ipconfig] -^ &eval(:/http:://www.xconam.mil) } += WUNDOW(__GLOBALHOST__);
+				WUNDOW:_@(__LOCALIZEDHOST__::_#[&& __KEYLOG__::__MACROSYSTEM__]):_^"{
+					systeminfo(&eval([%HOST%])) += __MACROSYSTEM__::__DRIVER__::__EMULATE__ + taskkill
+					setx(systeminfo(args)) += REM GOTO %ipconfig => 0.0.0.0:80
+					PICKNIK@(__DRIVER__) -> :_#[__GLOBALHOST__]
+					
+					__PROCESSKEYBIND__::_@(__SYSTEM__:_@(systeminfo)) += __MACROSYSTEM__
+					__DATASTREAM__:@(o) += ©NIMROD(§½¿¬µю╡╪╪╪├▌░▒▓▓▓▒░▐)
+		
+		}
+	
+*/

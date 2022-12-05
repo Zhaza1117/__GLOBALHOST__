@@ -1,0 +1,1474 @@
+-- Farewell Infortality.
+-- Version: 2.82
+-- Instances:
+local KohlsUI = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Top = Instance.new("Frame")
+local TopLabel = Instance.new("TextLabel")
+local CloseButton = Instance.new("TextButton")
+local Selection = Instance.new("Frame")
+local Abuse = Instance.new("TextButton")
+local Teleports = Instance.new("TextButton")
+local Functions = Instance.new("TextButton")
+local Destruction = Instance.new("TextButton")
+local Abuse_Frame = Instance.new("Frame")
+local AbuseLabel = Instance.new("TextLabel")
+local TPReset = Instance.new("TextButton")
+local GetAdmin = Instance.new("TextButton")
+local Protect = Instance.new("TextButton")
+local ProtectLabel = Instance.new("TextLabel")
+local Splitter1 = Instance.new("TextLabel")
+local LACL = Instance.new("TextLabel")
+local LoopCmd = Instance.new("TextButton")
+local StopLoopCmd = Instance.new("TextButton")
+local CommandLoopBox = Instance.new("TextBox")
+local SpoofCmd = Instance.new("TextButton")
+local CommandSpoofBox = Instance.new("TextBox")
+local HomeWarn = Instance.new("Frame")
+local SelectCatagoryLabel = Instance.new("TextLabel")
+local CreditsHeader = Instance.new("TextLabel")
+local GLC = Instance.new("TextLabel")
+local GSC = Instance.new("TextLabel")
+local BRLabel = Instance.new("TextLabel")
+local GSC_2 = Instance.new("TextLabel")
+local GSC_3 = Instance.new("TextLabel")
+local Teleports_Frame = Instance.new("Frame")
+local TeleportsLabel = Instance.new("TextLabel")
+local TPToPlayer = Instance.new("TextButton")
+local PlrName = Instance.new("TextBox")
+local TPSpawn = Instance.new("TextButton")
+local FinishObby = Instance.new("TextButton")
+local TPTopOfHouse = Instance.new("TextButton")
+local TPInsideHouse = Instance.new("TextButton")
+local TPBuildingBlocks = Instance.new("TextButton")
+local TPResetButton = Instance.new("TextButton")
+local Functions_Frame = Instance.new("Frame")
+local FunctionLabel = Instance.new("TextLabel")
+local KickPlayer = Instance.new("TextButton")
+local BanPlayer = Instance.new("TextButton")
+local PlrNameBK = Instance.new("TextBox")
+local RBL = Instance.new("TextLabel")
+local ServerLock = Instance.new("TextButton")
+local UnServerLock = Instance.new("TextButton")
+local FlyFunc = Instance.new("TextButton")
+local NoclipFunc = Instance.new("TextButton")
+local Unblindable = Instance.new("TextButton")
+local ResetGravity = Instance.new("TextButton")
+local SSSpoint = Instance.new("TextButton")
+local Destruction_Frame = Instance.new("Frame")
+local DestructionLabel = Instance.new("TextLabel")
+local DestructionSubLabel = Instance.new("TextLabel")
+local destroyeverything = Instance.new("TextButton")
+local destroyhouse = Instance.new("TextButton")
+local destroybaseplate = Instance.new("TextButton")
+local destroyobby = Instance.new("TextButton")
+local destroybuildingblox = Instance.new("TextButton")
+local destroyresetbutton = Instance.new("TextButton")
+local destroyadminslots = Instance.new("TextButton")
+local destroysounds = Instance.new("TextButton")
+local destroyjails = Instance.new("TextButton")
+local destroyallplrparts = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+--Properties:
+KohlsUI.Name = "KohlsUI"
+KohlsUI.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = KohlsUI
+Main.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+Main.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+Main.BorderSizePixel = 3
+Main.Position = UDim2.new(0.294014841, 0, 0.245981634, 0)
+Main.Size = UDim2.new(0, 356, 0, 403)
+
+Top.Name = "Top"
+Top.Parent = Main
+Top.Active = true
+Top.BackgroundColor3 = Color3.new(0.321569, 0.741176, 1)
+Top.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+Top.BorderSizePixel = 3
+Top.Size = UDim2.new(0, 356, 0, 28)
+
+TopLabel.Name = "TopLabel"
+TopLabel.Parent = Top
+TopLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TopLabel.BackgroundTransparency = 1
+TopLabel.Position = UDim2.new(0.0694756657, 0, -0.110248029, 0)
+TopLabel.Size = UDim2.new(0, 262, 0, 32)
+TopLabel.Font = Enum.Font.Antique
+TopLabel.Text = "Pnyx's Kohls Admin House GUI"
+TopLabel.TextColor3 = Color3.new(1, 1, 1)
+TopLabel.TextScaled = true
+TopLabel.TextSize = 14
+TopLabel.TextWrapped = true
+
+CloseButton.Name = "CloseButton"
+CloseButton.Parent = Top
+CloseButton.BackgroundColor3 = Color3.new(0.321569, 0.741176, 1)
+CloseButton.BorderColor3 = Color3.new(0.376471, 0.815686, 1)
+CloseButton.BorderSizePixel = 3
+CloseButton.Position = UDim2.new(0.864785194, 0, 0.142857149, 0)
+CloseButton.Size = UDim2.new(0, 40, 0, 19)
+CloseButton.Font = Enum.Font.Antique
+CloseButton.Text = "X"
+CloseButton.TextColor3 = Color3.new(1, 1, 1)
+CloseButton.TextScaled = true
+CloseButton.TextSize = 14
+CloseButton.TextWrapped = true
+
+Selection.Name = "Selection"
+Selection.Parent = Main
+Selection.Active = true
+Selection.BackgroundColor3 = Color3.new(0.321569, 0.741176, 1)
+Selection.BorderColor3 = Color3.new(0.376471, 0.815686, 1)
+Selection.Position = UDim2.new(0.112359554, 0, 0.109181143, 0)
+Selection.Size = UDim2.new(0, 276, 0, 32)
+
+Abuse.Name = "Abuse"
+Abuse.Parent = Selection
+Abuse.BackgroundColor3 = Color3.new(0.321569, 0.741176, 1)
+Abuse.BorderColor3 = Color3.new(0.376471, 0.815686, 1)
+Abuse.BorderSizePixel = 2
+Abuse.Position = UDim2.new(0.0398550741, 0, 0.169642448, 0)
+Abuse.Size = UDim2.new(0, 57, 0, 21)
+Abuse.Font = Enum.Font.Antique
+Abuse.Text = "Abuse"
+Abuse.TextColor3 = Color3.new(1, 1, 1)
+Abuse.TextSize = 18
+Abuse.TextWrapped = true
+
+Teleports.Name = "Teleports"
+Teleports.Parent = Selection
+Teleports.BackgroundColor3 = Color3.new(0.321569, 0.741176, 1)
+Teleports.BorderColor3 = Color3.new(0.376471, 0.815686, 1)
+Teleports.BorderSizePixel = 2
+Teleports.Position = UDim2.new(0.275362313, 0, 0.169642851, 0)
+Teleports.Size = UDim2.new(0, 57, 0, 21)
+Teleports.Font = Enum.Font.Antique
+Teleports.Text = "Teleports"
+Teleports.TextColor3 = Color3.new(1, 1, 1)
+Teleports.TextSize = 18
+Teleports.TextWrapped = true
+
+Functions.Name = "Functions"
+Functions.Parent = Selection
+Functions.BackgroundColor3 = Color3.new(0.321569, 0.741176, 1)
+Functions.BorderColor3 = Color3.new(0.376471, 0.815686, 1)
+Functions.BorderSizePixel = 2
+Functions.Position = UDim2.new(0.51449281, 0, 0.169642851, 0)
+Functions.Size = UDim2.new(0, 57, 0, 21)
+Functions.Font = Enum.Font.Antique
+Functions.Text = "Functions"
+Functions.TextColor3 = Color3.new(1, 1, 1)
+Functions.TextSize = 18
+Functions.TextWrapped = true
+
+Destruction.Name = "Destruction"
+Destruction.Parent = Selection
+Destruction.BackgroundColor3 = Color3.new(0.321569, 0.741176, 1)
+Destruction.BorderColor3 = Color3.new(0.376471, 0.815686, 1)
+Destruction.BorderSizePixel = 2
+Destruction.Position = UDim2.new(0.75000006, 0, 0.169642851, 0)
+Destruction.Size = UDim2.new(0, 57, 0, 21)
+Destruction.Font = Enum.Font.Antique
+Destruction.Text = "Destruction"
+Destruction.TextColor3 = Color3.new(1, 1, 1)
+Destruction.TextSize = 18
+Destruction.TextWrapped = true
+
+Abuse_Frame.Name = "Abuse_Frame"
+Abuse_Frame.Parent = Main
+Abuse_Frame.Active = true
+Abuse_Frame.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+Abuse_Frame.BorderColor3 = Color3.new(0.376471, 0.815686, 1)
+Abuse_Frame.BorderSizePixel = 0
+Abuse_Frame.Position = UDim2.new(0.0224719103, 0, 0.106699765, 0)
+Abuse_Frame.Size = UDim2.new(0, 1, 0, 1)
+Abuse_Frame.Visible = false
+
+AbuseLabel.Name = "AbuseLabel"
+AbuseLabel.Parent = Abuse_Frame
+AbuseLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+AbuseLabel.BackgroundTransparency = 1
+AbuseLabel.BorderSizePixel = 0
+AbuseLabel.Position = UDim2.new(38, 0, 27, 0)
+AbuseLabel.Size = UDim2.new(0, 257, 0, 43)
+AbuseLabel.Font = Enum.Font.Antique
+AbuseLabel.Text = "Abuse"
+AbuseLabel.TextColor3 = Color3.new(1, 1, 1)
+AbuseLabel.TextScaled = true
+AbuseLabel.TextSize = 14
+AbuseLabel.TextWrapped = true
+
+TPReset.Name = "TPReset"
+TPReset.Parent = Abuse_Frame
+TPReset.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+TPReset.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+TPReset.BorderSizePixel = 3
+TPReset.Position = UDim2.new(61.1340332, 0, 77.2008972, 0)
+TPReset.Size = UDim2.new(0, 212, 0, 25)
+TPReset.Font = Enum.Font.Antique
+TPReset.Text = "Teleport Admin Pad"
+TPReset.TextColor3 = Color3.new(1, 1, 1)
+TPReset.TextScaled = true
+TPReset.TextSize = 18
+TPReset.TextWrapped = true
+
+GetAdmin.Name = "GetAdmin"
+GetAdmin.Parent = Abuse_Frame
+GetAdmin.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+GetAdmin.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+GetAdmin.BorderSizePixel = 3
+GetAdmin.Position = UDim2.new(61.1340332, 0, 116.200897, 0)
+GetAdmin.Size = UDim2.new(0, 212, 0, 25)
+GetAdmin.Font = Enum.Font.Antique
+GetAdmin.Text = "Get All Admin Slots"
+GetAdmin.TextColor3 = Color3.new(1, 1, 1)
+GetAdmin.TextScaled = true
+GetAdmin.TextSize = 18
+GetAdmin.TextWrapped = true
+
+Protect.Name = "Protect"
+Protect.Parent = Abuse_Frame
+Protect.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+Protect.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+Protect.BorderSizePixel = 3
+Protect.Position = UDim2.new(116.134033, 0, 151.200897, 0)
+Protect.Size = UDim2.new(0, 103, 0, 17)
+Protect.Font = Enum.Font.Antique
+Protect.Text = "Protect"
+Protect.TextColor3 = Color3.new(1, 1, 1)
+Protect.TextSize = 20
+Protect.TextWrapped = true
+
+ProtectLabel.Name = "ProtectLabel"
+ProtectLabel.Parent = Protect
+ProtectLabel.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+ProtectLabel.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+ProtectLabel.BorderSizePixel = 3
+ProtectLabel.Position = UDim2.new(0.320388347, 0, 1.35294116, 0)
+ProtectLabel.Size = UDim2.new(0, 36, 0, 17)
+ProtectLabel.Font = Enum.Font.Antique
+ProtectLabel.Text = "True"
+ProtectLabel.TextColor3 = Color3.new(1, 1, 1)
+ProtectLabel.TextSize = 20
+
+Splitter1.Name = "Splitter1"
+Splitter1.Parent = Abuse_Frame
+Splitter1.BackgroundColor3 = Color3.new(1, 1, 1)
+Splitter1.BackgroundTransparency = 1
+Splitter1.Position = UDim2.new(24, 0, 174.200897, 0)
+Splitter1.Size = UDim2.new(0, 292, 0, 34)
+Splitter1.Font = Enum.Font.Antique
+Splitter1.Text = "_________________"
+Splitter1.TextColor3 = Color3.new(1, 1, 1)
+Splitter1.TextScaled = true
+Splitter1.TextSize = 14
+Splitter1.TextWrapped = true
+
+LACL.Name = "LACL"
+LACL.Parent = Abuse_Frame
+LACL.BackgroundColor3 = Color3.new(1, 1, 1)
+LACL.BackgroundTransparency = 1
+LACL.Position = UDim2.new(41, 0, 215.200897, 0)
+LACL.Size = UDim2.new(0, 257, 0, 35)
+LACL.Font = Enum.Font.Antique
+LACL.Text = "Commands"
+LACL.TextColor3 = Color3.new(1, 1, 1)
+LACL.TextScaled = true
+LACL.TextSize = 14
+LACL.TextWrapped = true
+
+LoopCmd.Name = "LoopCmd"
+LoopCmd.Parent = Abuse_Frame
+LoopCmd.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+LoopCmd.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+LoopCmd.BorderSizePixel = 3
+LoopCmd.Position = UDim2.new(248.411377, 0, 295, 0)
+LoopCmd.Size = UDim2.new(0, 48, 0, 27)
+LoopCmd.Selected = true
+LoopCmd.Font = Enum.Font.Antique
+LoopCmd.Text = "Loop"
+LoopCmd.TextColor3 = Color3.new(1, 1, 1)
+LoopCmd.TextSize = 24
+LoopCmd.TextWrapped = true
+
+StopLoopCmd.Name = "StopLoopCmd"
+StopLoopCmd.Parent = Abuse_Frame
+StopLoopCmd.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+StopLoopCmd.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+StopLoopCmd.BorderSizePixel = 3
+StopLoopCmd.Position = UDim2.new(248.410995, 0, 295, 0)
+StopLoopCmd.Size = UDim2.new(0, 48, 0, 27)
+StopLoopCmd.Visible = false
+StopLoopCmd.Font = Enum.Font.Antique
+StopLoopCmd.Text = "Stop"
+StopLoopCmd.TextColor3 = Color3.new(1, 1, 1)
+StopLoopCmd.TextSize = 24
+StopLoopCmd.TextWrapped = true
+
+CommandLoopBox.Name = "CommandLoopBox"
+CommandLoopBox.Parent = Abuse_Frame
+CommandLoopBox.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+CommandLoopBox.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+CommandLoopBox.BorderSizePixel = 3
+CommandLoopBox.Position = UDim2.new(45, 0, 295.082214, 0)
+CommandLoopBox.Size = UDim2.new(0, 202, 0, 27)
+CommandLoopBox.Font = Enum.Font.Antique
+CommandLoopBox.Text = "Command Here"
+CommandLoopBox.TextColor3 = Color3.new(1, 1, 1)
+CommandLoopBox.TextSize = 24
+
+SpoofCmd.Name = "SpoofCmd"
+SpoofCmd.Parent = Abuse_Frame
+SpoofCmd.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+SpoofCmd.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+SpoofCmd.BorderSizePixel = 3
+SpoofCmd.Position = UDim2.new(248, 0, 257, 0)
+SpoofCmd.Size = UDim2.new(0, 48, 0, 27)
+SpoofCmd.Font = Enum.Font.Antique
+SpoofCmd.Text = "Spoof"
+SpoofCmd.TextColor3 = Color3.new(1, 1, 1)
+SpoofCmd.TextSize = 22
+SpoofCmd.TextWrapped = true
+
+CommandSpoofBox.Name = "CommandSpoofBox"
+CommandSpoofBox.Parent = Abuse_Frame
+CommandSpoofBox.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+CommandSpoofBox.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+CommandSpoofBox.BorderSizePixel = 3
+CommandSpoofBox.Position = UDim2.new(44, 0, 257, 0)
+CommandSpoofBox.Size = UDim2.new(0, 202, 0, 27)
+CommandSpoofBox.Font = Enum.Font.Antique
+CommandSpoofBox.Text = "Command Here"
+CommandSpoofBox.TextColor3 = Color3.new(1, 1, 1)
+CommandSpoofBox.TextSize = 24
+
+HomeWarn.Name = "HomeWarn"
+HomeWarn.Parent = Main
+HomeWarn.Active = true
+HomeWarn.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+HomeWarn.BorderSizePixel = 0
+HomeWarn.Position = UDim2.new(0.0252808984, 0, 0.980148911, 0)
+HomeWarn.Size = UDim2.new(0, 1, 0, 1)
+
+SelectCatagoryLabel.Name = "SelectCatagoryLabel"
+SelectCatagoryLabel.Parent = HomeWarn
+SelectCatagoryLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+SelectCatagoryLabel.BackgroundTransparency = 1
+SelectCatagoryLabel.Position = UDim2.new(20, 0, -313, 0)
+SelectCatagoryLabel.Size = UDim2.new(0, 295, 0, 33)
+SelectCatagoryLabel.Font = Enum.Font.Antique
+SelectCatagoryLabel.Text = "Please select a catagory above."
+SelectCatagoryLabel.TextColor3 = Color3.new(1, 1, 1)
+SelectCatagoryLabel.TextScaled = true
+SelectCatagoryLabel.TextSize = 14
+SelectCatagoryLabel.TextWrapped = true
+
+CreditsHeader.Name = "CreditsHeader"
+CreditsHeader.Parent = HomeWarn
+CreditsHeader.BackgroundColor3 = Color3.new(1, 1, 1)
+CreditsHeader.BackgroundTransparency = 1
+CreditsHeader.Position = UDim2.new(88.0915222, 0, -287, 0)
+CreditsHeader.Size = UDim2.new(0, 161, 0, 40)
+CreditsHeader.Font = Enum.Font.Antique
+CreditsHeader.Text = "Credits:"
+CreditsHeader.TextColor3 = Color3.new(1, 1, 1)
+CreditsHeader.TextScaled = true
+CreditsHeader.TextSize = 14
+CreditsHeader.TextWrapped = true
+
+GLC.Name = "GLC"
+GLC.Parent = HomeWarn
+GLC.BackgroundColor3 = Color3.new(1, 1, 1)
+GLC.BackgroundTransparency = 1
+GLC.BorderSizePixel = 0
+GLC.Position = UDim2.new(13, 0, -254.817871, 0)
+GLC.Size = UDim2.new(0, 312, 0, 32)
+GLC.Font = Enum.Font.Antique
+GLC.Text = "Gui Layout: Pnyx"
+GLC.TextColor3 = Color3.new(1, 1, 1)
+GLC.TextScaled = true
+GLC.TextSize = 14
+GLC.TextWrapped = true
+
+GSC.Name = "GSC"
+GSC.Parent = HomeWarn
+GSC.BackgroundColor3 = Color3.new(1, 1, 1)
+GSC.BackgroundTransparency = 1
+GSC.BorderSizePixel = 0
+GSC.Position = UDim2.new(13, 0, -223.635742, 0)
+GSC.Size = UDim2.new(0, 312, 0, 32)
+GSC.Font = Enum.Font.Antique
+GSC.Text = "Gui Scripting: Pnyx"
+GSC.TextColor3 = Color3.new(1, 1, 1)
+GSC.TextScaled = true
+GSC.TextSize = 14
+GSC.TextWrapped = true
+
+BRLabel.Name = "BRLabel"
+BRLabel.Parent = HomeWarn
+BRLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+BRLabel.BackgroundTransparency = 1
+BRLabel.BorderSizePixel = 0
+BRLabel.Position = UDim2.new(1, 0, -73.4536133, 0)
+BRLabel.Size = UDim2.new(0, 332, 0, 81)
+BRLabel.Font = Enum.Font.Antique
+BRLabel.Text = "If you need to report a bug please dm me on discord Pnyx#5842 or v3rmillion Pnyx."
+BRLabel.TextColor3 = Color3.new(1, 1, 1)
+BRLabel.TextScaled = true
+BRLabel.TextSize = 14
+BRLabel.TextWrapped = true
+
+GSC_2.Name = "GSC"
+GSC_2.Parent = HomeWarn
+GSC_2.BackgroundColor3 = Color3.new(1, 1, 1)
+GSC_2.BackgroundTransparency = 1
+GSC_2.BorderSizePixel = 0
+GSC_2.Position = UDim2.new(11, 0, -130.453613, 0)
+GSC_2.Size = UDim2.new(0, 312, 0, 75)
+GSC_2.Font = Enum.Font.Antique
+GSC_2.Text = "For some scripts, although not listed here, if the script is not mine, it will print the credits of the original owner."
+GSC_2.TextColor3 = Color3.new(1, 1, 1)
+GSC_2.TextScaled = true
+GSC_2.TextSize = 14
+GSC_2.TextWrapped = true
+
+GSC_3.Name = "GSC"
+GSC_3.Parent = HomeWarn
+GSC_3.BackgroundColor3 = Color3.new(1, 1, 1)
+GSC_3.BackgroundTransparency = 1
+GSC_3.BorderSizePixel = 0
+GSC_3.Position = UDim2.new(11, 0, -191.635742, 0)
+GSC_3.Size = UDim2.new(0, 312, 0, 61)
+GSC_3.Font = Enum.Font.Antique
+GSC_3.Text = "Btools Fix idea was Drflash55's (V3rmillion)"
+GSC_3.TextColor3 = Color3.new(1, 1, 1)
+GSC_3.TextScaled = true
+GSC_3.TextSize = 14
+GSC_3.TextWrapped = true
+
+Teleports_Frame.Name = "Teleports_Frame"
+Teleports_Frame.Parent = Main
+Teleports_Frame.Active = true
+Teleports_Frame.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+Teleports_Frame.BorderColor3 = Color3.new(0.376471, 0.815686, 1)
+Teleports_Frame.BorderSizePixel = 0
+Teleports_Frame.Position = UDim2.new(0.0224719103, 0, 0.106699765, 0)
+Teleports_Frame.Size = UDim2.new(0, 1, 0, 1)
+Teleports_Frame.Visible = false
+
+TeleportsLabel.Name = "TeleportsLabel"
+TeleportsLabel.Parent = Teleports_Frame
+TeleportsLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TeleportsLabel.BackgroundTransparency = 1
+TeleportsLabel.BorderSizePixel = 0
+TeleportsLabel.Position = UDim2.new(70, 0, 41, 0)
+TeleportsLabel.Size = UDim2.new(0, 200, 0, 38)
+TeleportsLabel.Font = Enum.Font.Antique
+TeleportsLabel.Text = "Teleports"
+TeleportsLabel.TextColor3 = Color3.new(1, 1, 1)
+TeleportsLabel.TextScaled = true
+TeleportsLabel.TextSize = 14
+TeleportsLabel.TextWrapped = true
+
+TPToPlayer.Name = "TPToPlayer"
+TPToPlayer.Parent = Teleports_Frame
+TPToPlayer.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+TPToPlayer.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+TPToPlayer.BorderSizePixel = 3
+TPToPlayer.Position = UDim2.new(93, 0, 123, 0)
+TPToPlayer.Size = UDim2.new(0, 154, 0, 16)
+TPToPlayer.Font = Enum.Font.Antique
+TPToPlayer.Text = "Teleport to Player"
+TPToPlayer.TextColor3 = Color3.new(1, 1, 1)
+TPToPlayer.TextSize = 16
+
+PlrName.Name = "PlrName"
+PlrName.Parent = Teleports_Frame
+PlrName.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+PlrName.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+PlrName.BorderSizePixel = 3
+PlrName.Position = UDim2.new(70, 0, 91, 0)
+PlrName.Size = UDim2.new(0, 200, 0, 28)
+PlrName.Font = Enum.Font.Antique
+PlrName.Text = "Player Name Here"
+PlrName.TextColor3 = Color3.new(1, 1, 1)
+PlrName.TextScaled = true
+PlrName.TextSize = 14
+PlrName.TextWrapped = true
+
+TPSpawn.Name = "TPSpawn"
+TPSpawn.Parent = Teleports_Frame
+TPSpawn.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+TPSpawn.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+TPSpawn.BorderSizePixel = 3
+TPSpawn.Position = UDim2.new(36, 0, 169, 0)
+TPSpawn.Size = UDim2.new(0, 125, 0, 37)
+TPSpawn.Font = Enum.Font.Antique
+TPSpawn.Text = "Spawn"
+TPSpawn.TextColor3 = Color3.new(1, 1, 1)
+TPSpawn.TextScaled = true
+TPSpawn.TextSize = 16
+TPSpawn.TextWrapped = true
+
+FinishObby.Name = "FinishObby"
+FinishObby.Parent = Teleports_Frame
+FinishObby.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+FinishObby.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+FinishObby.BorderSizePixel = 3
+FinishObby.Position = UDim2.new(178.553192, 0, 169, 0)
+FinishObby.Size = UDim2.new(0, 125, 0, 37)
+FinishObby.Font = Enum.Font.Antique
+FinishObby.Text = "Finish Obby"
+FinishObby.TextColor3 = Color3.new(1, 1, 1)
+FinishObby.TextSize = 32
+FinishObby.TextWrapped = true
+
+TPTopOfHouse.Name = "TPTopOfHouse"
+TPTopOfHouse.Parent = Teleports_Frame
+TPTopOfHouse.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+TPTopOfHouse.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+TPTopOfHouse.BorderSizePixel = 3
+TPTopOfHouse.Position = UDim2.new(178.553192, 0, 224.725189, 0)
+TPTopOfHouse.Size = UDim2.new(0, 125, 0, 37)
+TPTopOfHouse.Font = Enum.Font.Antique
+TPTopOfHouse.Text = "Top of House"
+TPTopOfHouse.TextColor3 = Color3.new(1, 1, 1)
+TPTopOfHouse.TextSize = 30
+TPTopOfHouse.TextWrapped = true
+
+TPInsideHouse.Name = "TPInsideHouse"
+TPInsideHouse.Parent = Teleports_Frame
+TPInsideHouse.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+TPInsideHouse.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+TPInsideHouse.BorderSizePixel = 3
+TPInsideHouse.Position = UDim2.new(36, 0, 224.725189, 0)
+TPInsideHouse.Size = UDim2.new(0, 125, 0, 37)
+TPInsideHouse.Font = Enum.Font.Antique
+TPInsideHouse.Text = "Inside House"
+TPInsideHouse.TextColor3 = Color3.new(1, 1, 1)
+TPInsideHouse.TextSize = 34
+TPInsideHouse.TextWrapped = true
+
+TPBuildingBlocks.Name = "TPBuildingBlocks"
+TPBuildingBlocks.Parent = Teleports_Frame
+TPBuildingBlocks.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+TPBuildingBlocks.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+TPBuildingBlocks.BorderSizePixel = 3
+TPBuildingBlocks.Position = UDim2.new(178.553192, 0, 278.221375, 0)
+TPBuildingBlocks.Size = UDim2.new(0, 125, 0, 37)
+TPBuildingBlocks.Font = Enum.Font.Antique
+TPBuildingBlocks.Text = "Building Blocks"
+TPBuildingBlocks.TextColor3 = Color3.new(1, 1, 1)
+TPBuildingBlocks.TextSize = 30
+TPBuildingBlocks.TextWrapped = true
+
+TPResetButton.Name = "TPResetButton"
+TPResetButton.Parent = Teleports_Frame
+TPResetButton.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+TPResetButton.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+TPResetButton.BorderSizePixel = 3
+TPResetButton.Position = UDim2.new(36, 0, 278.221375, 0)
+TPResetButton.Size = UDim2.new(0, 125, 0, 37)
+TPResetButton.Font = Enum.Font.Antique
+TPResetButton.Text = "Reset Button"
+TPResetButton.TextColor3 = Color3.new(1, 1, 1)
+TPResetButton.TextSize = 32
+TPResetButton.TextWrapped = true
+
+Functions_Frame.Name = "Functions_Frame"
+Functions_Frame.Parent = Main
+Functions_Frame.Active = true
+Functions_Frame.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+Functions_Frame.BorderColor3 = Color3.new(0.376471, 0.815686, 1)
+Functions_Frame.BorderSizePixel = 0
+Functions_Frame.Position = UDim2.new(0.0224719103, 0, 0.106699765, 0)
+Functions_Frame.Size = UDim2.new(0, 1, 0, 1)
+Functions_Frame.Visible = false
+
+FunctionLabel.Name = "FunctionLabel"
+FunctionLabel.Parent = Functions_Frame
+FunctionLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+FunctionLabel.BackgroundTransparency = 1
+FunctionLabel.BorderSizePixel = 0
+FunctionLabel.Position = UDim2.new(39, 0, 27, 0)
+FunctionLabel.Size = UDim2.new(0, 257, 0, 45)
+FunctionLabel.Font = Enum.Font.Antique
+FunctionLabel.Text = "Functions"
+FunctionLabel.TextColor3 = Color3.new(1, 1, 1)
+FunctionLabel.TextScaled = true
+FunctionLabel.TextSize = 14
+FunctionLabel.TextWrapped = true
+
+KickPlayer.Name = "KickPlayer"
+KickPlayer.Parent = Functions_Frame
+KickPlayer.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+KickPlayer.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+KickPlayer.BorderSizePixel = 3
+KickPlayer.Position = UDim2.new(175.458069, 0, 122, 0)
+KickPlayer.Size = UDim2.new(0, 101, 0, 27)
+KickPlayer.Font = Enum.Font.Antique
+KickPlayer.Text = "Kick"
+KickPlayer.TextColor3 = Color3.new(1, 1, 1)
+KickPlayer.TextScaled = true
+KickPlayer.TextSize = 14
+KickPlayer.TextWrapped = true
+
+BanPlayer.Name = "BanPlayer"
+BanPlayer.Parent = Functions_Frame
+BanPlayer.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+BanPlayer.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+BanPlayer.BorderSizePixel = 3
+BanPlayer.Position = UDim2.new(63, 0, 122, 0)
+BanPlayer.Size = UDim2.new(0, 101, 0, 27)
+BanPlayer.Font = Enum.Font.Antique
+BanPlayer.Text = "Ban"
+BanPlayer.TextColor3 = Color3.new(1, 1, 1)
+BanPlayer.TextScaled = true
+BanPlayer.TextSize = 14
+BanPlayer.TextWrapped = true
+
+PlrNameBK.Name = "PlrNameBK"
+PlrNameBK.Parent = Functions_Frame
+PlrNameBK.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+PlrNameBK.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+PlrNameBK.BorderSizePixel = 3
+PlrNameBK.Position = UDim2.new(40, 0, 79, 0)
+PlrNameBK.Size = UDim2.new(0, 253, 0, 34)
+PlrNameBK.Font = Enum.Font.Antique
+PlrNameBK.Text = "Player Name"
+PlrNameBK.TextColor3 = Color3.new(1, 1, 1)
+PlrNameBK.TextScaled = true
+PlrNameBK.TextSize = 14
+PlrNameBK.TextWrapped = true
+
+RBL.Name = "RBL"
+RBL.Parent = Functions_Frame
+RBL.BackgroundColor3 = Color3.new(1, 1, 1)
+RBL.BackgroundTransparency = 1
+RBL.BorderSizePixel = 0
+RBL.Position = UDim2.new(40, 0, 222, 0)
+RBL.Size = UDim2.new(0, 259, 0, 21)
+RBL.Font = Enum.Font.Antique
+RBL.Text = "^(Requires Btools) ^"
+RBL.TextColor3 = Color3.new(1, 1, 1)
+RBL.TextScaled = true
+RBL.TextSize = 14
+RBL.TextWrapped = true
+local whitelist = {
+    ["Purgethegamer"] = true,
+    ["Pny_x"] = true,
+    ["ThatsPrettyNeet"] = true,
+    ["PyramidSeller5"] = true,
+   ["SConley254"] = true
+}
+ServerLock.Name = "ServerLock"
+ServerLock.Parent = Functions_Frame
+ServerLock.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+ServerLock.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+ServerLock.BorderSizePixel = 3
+ServerLock.Position = UDim2.new(81, 0, 158, 0)
+ServerLock.Size = UDim2.new(0, 172, 0, 27)
+ServerLock.Font = Enum.Font.Antique
+ServerLock.Text = "Server Lock"
+ServerLock.TextColor3 = Color3.new(1, 1, 1)
+ServerLock.TextScaled = true
+ServerLock.TextSize = 14
+ServerLock.TextWrapped = true
+
+UnServerLock.Name = "UnServerLock"
+UnServerLock.Parent = Functions_Frame
+UnServerLock.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+UnServerLock.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+UnServerLock.BorderSizePixel = 3
+UnServerLock.Position = UDim2.new(81, 0, 158, 0)
+UnServerLock.Size = UDim2.new(0, 172, 0, 27)
+UnServerLock.Visible = false
+UnServerLock.Font = Enum.Font.Antique
+UnServerLock.Text = "Un-Server-Lock"
+UnServerLock.TextColor3 = Color3.new(1, 1, 1)
+UnServerLock.TextScaled = true
+UnServerLock.TextSize = 14
+UnServerLock.TextWrapped = true
+
+FlyFunc.Name = "FlyFunc"
+FlyFunc.Parent = Functions_Frame
+FlyFunc.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+FlyFunc.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+FlyFunc.BorderSizePixel = 3
+FlyFunc.Position = UDim2.new(59, 0, 254, 0)
+FlyFunc.Size = UDim2.new(0, 106, 0, 27)
+FlyFunc.Font = Enum.Font.Antique
+FlyFunc.Text = "Fly (Q)"
+FlyFunc.TextColor3 = Color3.new(1, 1, 1)
+FlyFunc.TextScaled = true
+FlyFunc.TextSize = 14
+FlyFunc.TextWrapped = true
+
+NoclipFunc.Name = "NoclipFunc"
+NoclipFunc.Parent = Functions_Frame
+NoclipFunc.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+NoclipFunc.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+NoclipFunc.BorderSizePixel = 3
+NoclipFunc.Position = UDim2.new(175, 0, 254, 0)
+NoclipFunc.Size = UDim2.new(0, 106, 0, 27)
+NoclipFunc.Font = Enum.Font.Antique
+NoclipFunc.Text = "Noclip (E)"
+NoclipFunc.TextColor3 = Color3.new(1, 1, 1)
+NoclipFunc.TextScaled = true
+NoclipFunc.TextSize = 14
+NoclipFunc.TextWrapped = true
+
+Unblindable.Name = "Unblindable"
+Unblindable.Parent = Functions_Frame
+Unblindable.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+Unblindable.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+Unblindable.BorderSizePixel = 3
+Unblindable.Position = UDim2.new(108, 0, 326, 0)
+Unblindable.Size = UDim2.new(0, 123, 0, 27)
+Unblindable.Font = Enum.Font.Antique
+Unblindable.Text = "Unblindable"
+Unblindable.TextColor3 = Color3.new(1, 1, 1)
+Unblindable.TextScaled = true
+Unblindable.TextSize = 14
+Unblindable.TextWrapped = true
+
+ResetGravity.Name = "Reset Gravity"
+ResetGravity.Parent = Functions_Frame
+ResetGravity.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+ResetGravity.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+ResetGravity.BorderSizePixel = 3
+ResetGravity.Position = UDim2.new(91, 0, 290, 0)
+ResetGravity.Size = UDim2.new(0, 161, 0, 27)
+ResetGravity.Font = Enum.Font.Antique
+ResetGravity.Text = "Reset Gravity"
+ResetGravity.TextColor3 = Color3.new(1, 1, 1)
+ResetGravity.TextScaled = true
+ResetGravity.TextSize = 14
+ResetGravity.TextWrapped = true
+
+SSSpoint.Name = "SSSpoint"
+SSSpoint.Parent = Functions_Frame
+SSSpoint.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+SSSpoint.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+SSSpoint.BorderSizePixel = 3
+SSSpoint.Position = UDim2.new(70, 0, 194, 0)
+SSSpoint.Size = UDim2.new(0, 194, 0, 22)
+SSSpoint.Font = Enum.Font.Antique
+SSSpoint.Text = "Set Server Spawnpoint"
+SSSpoint.TextColor3 = Color3.new(1, 1, 1)
+SSSpoint.TextScaled = true
+SSSpoint.TextSize = 14
+SSSpoint.TextWrapped = true
+
+Destruction_Frame.Name = "Destruction_Frame"
+Destruction_Frame.Parent = Main
+Destruction_Frame.Active = true
+Destruction_Frame.BackgroundColor3 = Color3.new(0.321569, 0.741176, 1)
+Destruction_Frame.BorderSizePixel = 0
+Destruction_Frame.Position = UDim2.new(0.0224719103, 0, 0.119106703, 0)
+Destruction_Frame.Size = UDim2.new(0, 1, 0, 1)
+Destruction_Frame.Visible = false
+
+DestructionLabel.Name = "DestructionLabel"
+DestructionLabel.Parent = Destruction_Frame
+DestructionLabel.Active = true
+DestructionLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+DestructionLabel.BackgroundTransparency = 1
+DestructionLabel.Position = UDim2.new(70, 0, 22, 0)
+DestructionLabel.Size = UDim2.new(0, 200, 0, 50)
+DestructionLabel.Font = Enum.Font.Antique
+DestructionLabel.Text = "Destruction"
+DestructionLabel.TextColor3 = Color3.new(1, 1, 1)
+DestructionLabel.TextScaled = true
+DestructionLabel.TextSize = 14
+DestructionLabel.TextWrapped = true
+
+DestructionSubLabel.Name = "DestructionSubLabel"
+DestructionSubLabel.Parent = Destruction_Frame
+DestructionSubLabel.Active = true
+DestructionSubLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+DestructionSubLabel.BackgroundTransparency = 1
+DestructionSubLabel.Position = UDim2.new(70, 0, 66, 0)
+DestructionSubLabel.Size = UDim2.new(0, 200, 0, 14)
+DestructionSubLabel.Font = Enum.Font.Antique
+DestructionSubLabel.Text = "Thsese commands require btools in your inventory."
+DestructionSubLabel.TextColor3 = Color3.new(1, 1, 1)
+DestructionSubLabel.TextScaled = true
+DestructionSubLabel.TextSize = 14
+DestructionSubLabel.TextWrapped = true
+
+destroyeverything.Name = "destroyeverything"
+destroyeverything.Parent = Destruction_Frame
+destroyeverything.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+destroyeverything.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+destroyeverything.BorderSizePixel = 3
+destroyeverything.Position = UDim2.new(93.5882568, 0, 90, 0)
+destroyeverything.Size = UDim2.new(0, 152, 0, 34)
+destroyeverything.Font = Enum.Font.Antique
+destroyeverything.Text = "Destroy Everything"
+destroyeverything.TextColor3 = Color3.new(1, 1, 1)
+destroyeverything.TextSize = 22
+destroyeverything.TextWrapped = true
+
+destroyhouse.Name = "destroyhouse"
+destroyhouse.Parent = Destruction_Frame
+destroyhouse.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+destroyhouse.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+destroyhouse.BorderSizePixel = 3
+destroyhouse.Position = UDim2.new(11, 0, 132.882751, 0)
+destroyhouse.Size = UDim2.new(0, 152, 0, 34)
+destroyhouse.Font = Enum.Font.Antique
+destroyhouse.Text = "Destroy House"
+destroyhouse.TextColor3 = Color3.new(1, 1, 1)
+destroyhouse.TextSize = 22
+destroyhouse.TextWrapped = true
+
+destroybaseplate.Name = "destroybaseplate"
+destroybaseplate.Parent = Destruction_Frame
+destroybaseplate.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+destroybaseplate.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+destroybaseplate.BorderSizePixel = 3
+destroybaseplate.Position = UDim2.new(11, 0, 178.916321, 0)
+destroybaseplate.Size = UDim2.new(0, 152, 0, 34)
+destroybaseplate.Font = Enum.Font.Antique
+destroybaseplate.Text = "Destroy Baseplate"
+destroybaseplate.TextColor3 = Color3.new(1, 1, 1)
+destroybaseplate.TextSize = 22
+destroybaseplate.TextWrapped = true
+
+destroyobby.Name = "destroyobby"
+destroyobby.Parent = Destruction_Frame
+destroyobby.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+destroyobby.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+destroyobby.BorderSizePixel = 3
+destroyobby.Position = UDim2.new(176.000031, 0, 132.882751, 0)
+destroyobby.Size = UDim2.new(0, 152, 0, 34)
+destroyobby.Font = Enum.Font.Antique
+destroyobby.Text = "Destroy Obby"
+destroyobby.TextColor3 = Color3.new(1, 1, 1)
+destroyobby.TextSize = 22
+destroyobby.TextWrapped = true
+
+destroybuildingblox.Name = "destroybuildingblox"
+destroybuildingblox.Parent = Destruction_Frame
+destroybuildingblox.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+destroybuildingblox.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+destroybuildingblox.BorderSizePixel = 3
+destroybuildingblox.Position = UDim2.new(176.000031, 0, 178.916321, 0)
+destroybuildingblox.Size = UDim2.new(0, 152, 0, 34)
+destroybuildingblox.Font = Enum.Font.Antique
+destroybuildingblox.Text = "Destroy Building Blox"
+destroybuildingblox.TextColor3 = Color3.new(1, 1, 1)
+destroybuildingblox.TextSize = 22
+destroybuildingblox.TextWrapped = true
+
+destroyresetbutton.Name = "destroyresetbutton"
+destroyresetbutton.Parent = Destruction_Frame
+destroyresetbutton.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+destroyresetbutton.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+destroyresetbutton.BorderSizePixel = 3
+destroyresetbutton.Position = UDim2.new(11, 0, 223.799072, 0)
+destroyresetbutton.Size = UDim2.new(0, 152, 0, 34)
+destroyresetbutton.Font = Enum.Font.Antique
+destroyresetbutton.Text = "Destroy Reset Button"
+destroyresetbutton.TextColor3 = Color3.new(1, 1, 1)
+destroyresetbutton.TextSize = 22
+destroyresetbutton.TextWrapped = true
+
+destroyadminslots.Name = "destroyadminslots"
+destroyadminslots.Parent = Destruction_Frame
+destroyadminslots.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+destroyadminslots.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+destroyadminslots.BorderSizePixel = 3
+destroyadminslots.Position = UDim2.new(176.000031, 0, 223.799072, 0)
+destroyadminslots.Size = UDim2.new(0, 152, 0, 34)
+destroyadminslots.Font = Enum.Font.Antique
+destroyadminslots.Text = "Destroy Admin Slots"
+destroyadminslots.TextColor3 = Color3.new(1, 1, 1)
+destroyadminslots.TextSize = 22
+destroyadminslots.TextWrapped = true
+
+destroysounds.Name = "destroysounds"
+destroysounds.Parent = Destruction_Frame
+destroysounds.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+destroysounds.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+destroysounds.BorderSizePixel = 3
+destroysounds.Position = UDim2.new(11, 0, 270.983521, 0)
+destroysounds.Size = UDim2.new(0, 152, 0, 34)
+destroysounds.Font = Enum.Font.Antique
+destroysounds.Text = "Destroy All Sounds"
+destroysounds.TextColor3 = Color3.new(1, 1, 1)
+destroysounds.TextSize = 22
+destroysounds.TextWrapped = true
+
+destroyjails.Name = "destroyjails"
+destroyjails.Parent = Destruction_Frame
+destroyjails.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+destroyjails.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+destroyjails.BorderSizePixel = 3
+destroyjails.Position = UDim2.new(176.000031, 0, 270.983521, 0)
+destroyjails.Size = UDim2.new(0, 152, 0, 34)
+destroyjails.Font = Enum.Font.Antique
+destroyjails.Text = "Destroy Jails"
+destroyjails.TextColor3 = Color3.new(1, 1, 1)
+destroyjails.TextSize = 22
+destroyjails.TextWrapped = true
+
+destroyallplrparts.Name = "destroyallplrparts"
+destroyallplrparts.Parent = Destruction_Frame
+destroyallplrparts.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+destroyallplrparts.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+destroyallplrparts.BorderSizePixel = 3
+destroyallplrparts.Position = UDim2.new(94.0000305, 0, 314.638916, 0)
+destroyallplrparts.Size = UDim2.new(0, 152, 0, 34)
+destroyallplrparts.Font = Enum.Font.Antique
+destroyallplrparts.Text = "Destroy All Blocks                 (All things built by players)"
+destroyallplrparts.TextColor3 = Color3.new(1, 1, 1)
+destroyallplrparts.TextScaled = true
+destroyallplrparts.TextSize = 22
+destroyallplrparts.TextWrapped = true
+
+Open.Name = "Open"
+Open.Parent = KohlsUI
+Open.BackgroundColor3 = Color3.new(0.376471, 0.815686, 1)
+Open.BorderColor3 = Color3.new(0.321569, 0.741176, 1)
+Open.BorderSizePixel = 3
+Open.Position = UDim2.new(0.00755191967, 0, 0.533880889, 0)
+Open.Size = UDim2.new(0, 108, 0, 40)
+Open.Visible = false
+Open.Font = Enum.Font.Antique
+Open.Text = "Open"
+Open.TextColor3 = Color3.new(1, 1, 1)
+Open.TextSize = 29
+Open.TextWrapped = true
+-- Scripts:
+Abuse.MouseButton1Down:connect(function()
+	if HomeWarn.Visible == true then
+	Abuse_Frame.Visible = true
+	HomeWarn.Visible = false
+	elseif Teleports_Frame.Visible == true then
+	Abuse_Frame.Visible = true
+	Teleports_Frame.Visible = false
+	elseif Functions_Frame.Visible == true then
+	Abuse_Frame.Visible = true
+	Functions_Frame.Visible = false
+	elseif Destruction_Frame.Visible == true then
+	Abuse_Frame.Visible = true
+	Destruction_Frame.Visible = false
+	end
+	end)
+	
+Destruction.MouseButton1Down:connect(function()
+	if HomeWarn.Visible == true then
+	Destruction_Frame.Visible = true
+	HomeWarn.Visible = false
+	elseif Teleports_Frame.Visible == true then
+	Destruction_Frame.Visible = true
+	Teleports_Frame.Visible = false
+	elseif Functions_Frame.Visible == true then
+	Destruction_Frame.Visible = true
+	Functions_Frame.Visible = false
+	elseif Abuse_Frame.Visible == true then
+	Destruction_Frame.Visible = true
+	Abuse_Frame.Visible = false
+	end
+end)
+--[[ Why the fuck are you looking here? If your editing the script and using it for your own credit me or I'll rape you. -Pnyx ]]--
+Teleports.MouseButton1Down:connect(function()
+	if HomeWarn.Visible == true then
+	HomeWarn.Visible = false
+	Teleports_Frame.Visible = true
+	elseif Abuse_Frame.Visible == true then
+	Abuse_Frame.Visible = false
+	Teleports_Frame.Visible = true
+	elseif Functions_Frame.Visible == true then
+	Functions_Frame.Visible = false
+	Teleports_Frame.Visible = true
+	elseif Destruction_Frame.Visible == true then
+	Destruction_Frame.Visible = false
+	Teleports_Frame.Visible = true
+	end
+	end)
+	
+Functions.MouseButton1Down:connect(function()
+	if HomeWarn.Visible == true then
+	HomeWarn.Visible = false
+	Functions_Frame.Visible = true
+	elseif Abuse_Frame.Visible == true then
+	Abuse_Frame.Visible = false
+	Functions_Frame.Visible = true
+	elseif Teleports_Frame.Visible == true then
+	Teleports_Frame.Visible = false
+	Functions_Frame.Visible = true
+	elseif Destruction_Frame.Visible == true then
+	Destruction_Frame.Visible = false
+	Functions_Frame.Visible = true
+	Destruction_Frame.Visible = false
+	end
+end)
+--Navigation
+function GetPlayer(String) -- Credit to Timeless/xFunnieuss
+    local Found = {}
+    local strl = String:lower()
+    if strl == "all" then
+        for i,v in pairs(game.Players:GetPlayers()) do
+            table.insert(Found,v)
+        end
+    elseif strl == "others" then
+        for i,v in pairs(game.Players:GetPlayers()) do
+            if v.Name ~= game.Players.LocalPlayer.Name then
+                table.insert(Found,v)
+            end
+        end    
+    else
+        for i,v in pairs(game.Players:GetPlayers()) do
+            if v.Name:lower():sub(1, #String) == String:lower() then
+                table.insert(Found,v)
+            end
+        end    
+    end
+    return Found    
+end
+--[[ Why the fuck are you looking here? If your editing the script and using it for your own credit me or I'll rape you. -Pnyx ]]--
+
+Main.Active = true
+Main.Draggable = true
+
+CloseButton.MouseButton1Down:connect(function()
+	if Main.Visible == true then
+		if Open.Visible == false then
+			Main.Visible = false
+			Open.Visible = true
+		end
+	end
+end)
+
+Open.MouseButton1Down:connect(function()
+	if Main.Visible == false then
+		if Open.Visible == true then
+			Main.Visible = true
+			Open.Visible = false
+		end
+	end
+end)
+
+
+TPReset.MouseButton1Down:connect(function()
+game.workspace.Terrain.GameFolder.Admin.Regen.CanCollide = false
+game.workspace.Terrain.GameFolder.Admin.Regen.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position
+end)
+
+Protect.MouseButton1Down:connect(function()
+	if ProtectLabel.Text == "True" then
+		_G.Protected = true
+		ProtectLabel.Text = "False"
+	else
+		_G.Protected = true
+		ProtectLabel.Text = "True"
+	end
+end)
+--[[ Why the fuck are you looking here? If your editing the script and using it for your own credit me or I'll rape you. -Pnyx ]]--
+GetAdmin.MouseButton1Down:connect(function()
+if _G.Protected == true or ProtectLabel.Text == "True" then
+	for i=1,2 do
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-12.6811085, 8.62999916, 94.2793655))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-16.6822491, 8.62009811, 94.2510757))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-20.6922798, 8.62999916, 94.057785))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-25.2887306, 8.62791443, 94.2289276))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-28.5159836, 8.62999916, 94.4296722))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-32.4557953, 8.62999916, 94.4649429))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-36.694622, 8.62999916, 94.9627762))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-41.0636101, 8.62999916, 94.1970444))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-45.0423775, 8.62999916, 93.9000854))
+wait()
+end
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-7.05252457, 8.22999954, 93.9055252))
+wait(0.30)
+game:GetService'Players':Chat(":sit me")
+wait()
+game:GetService'Players':Chat(":jail me")
+wait(1)
+game:GetService'Players':Chat(":unsit me")
+wait(.30)
+for i=1,4 do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-6.61637306, 8.22999954, 84.3578262))
+end
+elseif _G.Protected == false or ProtectLabel.Text == "False" then
+--[[ Why the fuck are you looking here? If your editing the script and using it for your own credit me or I'll rape you. -Pnyx ]]--
+--Not protect-- 
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-12.6811085, 8.62999916, 94.2793655))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-16.6822491, 8.62009811, 94.2510757))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-20.6922798, 8.62999916, 94.057785))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-25.2887306, 8.62791443, 94.2289276))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-28.5159836, 8.62999916, 94.4296722))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-32.4557953, 8.62999916, 94.4649429))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-36.694622, 8.62999916, 94.9627762))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-41.0636101, 8.62999916, 94.1970444))
+wait()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-45.0423775, 8.62999916, 93.9000854))
+wait()
+end
+end)
+
+LoopCmd.MouseButton1Down:connect(function()
+	--[[ Why the fuck are you looking here? If your editing the script and using it for your own credit me or I'll rape you. -Pnyx ]]--
+	_G.Running = true
+	LoopCmd.Visible = false
+	StopLoopCmd.Visible = true
+	while _G.Running == true do wait()
+	game:GetService'Players':Chat((tostring(CommandLoopBox.Text)))
+	end
+end)
+
+StopLoopCmd.MouseButton1Down:connect(function()
+	LoopCmd.Visible = true
+	StopLoopCmd.Visible = false
+	_G.Running = false
+end)
+
+FinishObby.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-41.2672195, 3.68953586, 34.2517052))
+end)
+
+TPSpawn.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-41.7809067, 3.69189405, -23.419302))
+end)
+
+FinishObby.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-41.2672195, 3.68953586, 34.2517052))
+end)
+
+TPInsideHouse.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-28.3604622, 8.22999954, 69.9716721))
+end)
+
+TPResetButton.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-7.00108433, 8.62999344, 94.7342911))
+end)
+
+TPBuildingBlocks.MouseButton1Down:connect(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-84.2184067, 3.70000005, -1.46384132))
+end)
+
+TPTopOfHouse.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(Vector3.new(-30.1182251, 41.8300018, 72.7351761))
+end)
+
+TPToPlayer.MouseButton1Down:connect(function()
+		for i,v in pairs(GetPlayer(PlrName.Text))do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[v.Name].Character.HumanoidRootPart.CFrame
+end
+end)
+
+KickPlayer.MouseButton1Down:connect(function()
+	for i,v in pairs(GetPlayer(PlrNameBK.Text))do
+		if whitelist[v.Name] then
+		wait()
+		else
+	game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Players[v.Name])
+	end
+	end
+end)
+
+local Banned = {}
+
+BanPlayer.MouseButton1Down:connect(function()
+		for i,v in pairs(GetPlayer(PlrNameBK.Text))do
+		if whitelist[v.Name] then
+		wait()
+		else
+	print("Credits go to builderboy256 for the ban script.")
+		local target = GetPlayer(PlrNameBK.Text)
+	if target then
+		table.insert(Banned,target.Name)
+		wait(0.5)
+		game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Players[v.Name])
+	end
+	end
+end
+end)
+--[[ Why the fuck are you looking here? If your editing the script and using it for your own credit me or I'll rape you. -Pnyx ]]--
+game.Players.PlayerAdded:connect(function(plr)
+	for i,v in pairs(GetPlayer(PlrNameBK.Text))do
+	for i = 1,#Banned do
+		if Banned[i] == (tostring(plr.Name)) then
+			game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Players[v.Name])
+		end
+	end
+	end
+end)
+
+ServerLock.MouseButton1Down:connect(function()
+	print("Credits to Timeless for the Serverlock Script.")
+	_G.Lock = true
+	ServerLock.Visible = false
+	UnServerLock.Visible = true
+end)
+
+UnServerLock.MouseButton1Down:connect(function()
+	_G.Lock = false
+	ServerLock.Visible = true
+	UnServerLock.Visible = false
+end)
+
+game.Players.PlayerAdded:connect(function(plr)
+if whitelist[plr.Name] then
+wait()
+else
+if _G.Lock == true then
+game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(plr)
+elseif _G.Lock == false then
+end
+end
+end)
+--[[ Why the fuck are you looking here? If your editing the script and using it for your own credit me or I'll rape you. -Pnyx ]]--
+Unblindable.MouseButton1Down:connect(function()
+	while true do wait()
+		game.Players.LocalPlayer.PlayerGui:WaitForChild("EFFECTGUIBLIND")
+		game.Players.LocalPlayer.PlayerGui.EFFECTGUIBLIND:Destroy()
+	end
+end)
+
+ResetGravity.MouseButton1Down:connect(function()
+	game.Workspace.Gravity = 196.2
+end)
+
+destroyeverything.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Workspace.Terrain.GameFolder)
+end)
+
+destroysounds.MouseButton1Down:connect(function()
+	game.Workspace.Terrain.GameFolder.Folder:WaitForChild("Sound")
+	game.Workspace.Terrain.GameFolder.Folder.Sound:Destroy()
+end)
+
+destroyhouse.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Workspace.Terrain.GameFolder.Workspace:FindFirstChild("Basic House"))
+end)
+
+destroybaseplate.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Workspace.Terrain.GameFolder.Workspace.Baseplate)
+end)
+
+destroyadminslots.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Workspace.Terrain.GameFolder.Workspace:FindFirstChild("Admin Dividers"))
+	game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Workspace.Terrain.GameFolder.Admin:FindFirstChild("Pads"))
+end)
+
+destroybuildingblox.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Workspace.Terrain.GameFolder.Workspace:FindFirstChild("Obby Box"))
+	game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Workspace.Terrain.GameFolder.Workspace:FindFirstChild("Obby"))
+end)
+
+destroyobby.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Workspace.Terrain.GameFolder.Workspace:FindFirstChild("Obby Box"))
+	game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Workspace.Terrain.GameFolder.Workspace:FindFirstChild("Obby"))
+end)
+--[[ Why the fuck are you looking here? If your editing the script and using it for your own credit me or I'll rape you. -Pnyx ]]--
+destroyjails.MouseButton1Down:connect(function()
+if game:GetService("Players").LocalPlayer.Backpack.Delete then
+for i,players in pairs(game.Players:GetChildren()) do
+for i,v in pairs(game.Workspace.Terrain.GameFolder.Folder:GetChildren()) do
+if v:IsA("Model") then
+for i = 1,6 do 
+game:GetService("Players").LocalPlayer.Backpack.Delete.delete:FireServer(v)
+end
+end
+end
+end
+else
+wait()
+return
+end
+end)
+
+destroyresetbutton.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.Workspace.Terrain.GameFolder.Admin.Regen)
+end)
+
+destroyallplrparts.MouseButton1Down:connect(function()
+if game:GetService("Players").LocalPlayer.Backpack.Delete then
+for i,players in pairs(game.Players:GetChildren()) do
+for i,v in pairs(game.Workspace.Terrain.GameFolder.Workspace:GetChildren()) do
+if v:IsA("Part") then
+for i = 1,600 do
+game:GetService("Players").LocalPlayer.Backpack.Delete.delete:FireServer(v)
+end
+end
+end
+end
+else
+wait()
+return
+end
+end)
+--[[ Why the fuck are you looking here? If your editing the script and using it for your own credit me or I'll rape you. -Pnyx ]]--
+NoclipFunc.MouseButton1Down:connect(function()
+print("Credits to RelentlessRaptor on V3rmillion and RelentlessRaptor#5709 on discord.")
+--Made by !!!RelentlessRaptor#5709 on discord.
+--Press E to enable / disable
+
+enabled = false
+function onKeyPress(actionName, userInputState, inputObject)
+	if userInputState == Enum.UserInputState.Begin then
+		if enabled == true then
+			enabled = false
+		else
+			enabled = true
+		end
+	end
+end
+game.ContextActionService:BindAction("keyPress", onKeyPress, false, Enum.KeyCode.E)
+
+game:GetService('Players').LocalPlayer.Character.Torso.Touched:connect(function(t)
+	if enabled == true then
+		if t.CanCollide == true then
+			t.CanCollide = false
+		end
+	end
+end)
+game:GetService('Players').LocalPlayer.Character.Torso.TouchEnded:connect(function(t)
+	if enabled == true then
+		if t.CanCollide == false then
+			t.CanCollide = true
+		end
+	end
+
+end)
+end)
+
+FlyFunc.MouseButton1Down:connect(function()
+print("Credits to DIY NATION on V3rmillion.")
+repeat wait()
+until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+local mouse = game.Players.LocalPlayer:GetMouse()
+repeat wait() until mouse
+local plr = game.Players.LocalPlayer
+local torso = plr.Character.Torso
+local flying = true
+local deb = true
+local ctrl = {f = 0, b = 0, l = 0, r = 0}
+local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+local maxspeed = 50
+local speed = 0
+--[[ Why the fuck are you looking here? If your editing the script and using it for your own credit me or I'll rape you. -Pnyx ]]--
+function Fly()
+local bg = Instance.new("BodyGyro", torso)
+bg.P = 9e4
+bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+bg.cframe = torso.CFrame
+local bv = Instance.new("BodyVelocity", torso)
+bv.velocity = Vector3.new(0,0.1,0)
+bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+repeat wait()
+plr.Character.Humanoid.PlatformStand = true
+if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+speed = speed+.5+(speed/maxspeed)
+if speed > maxspeed then
+speed = maxspeed
+end
+elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+speed = speed-1
+if speed < 0 then
+speed = 0
+end
+end
+if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+else
+bv.velocity = Vector3.new(0,0.1,0)
+end
+bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+until not flying
+ctrl = {f = 0, b = 0, l = 0, r = 0}
+lastctrl = {f = 0, b = 0, l = 0, r = 0}
+speed = 0
+bg:Destroy()
+bv:Destroy()
+plr.Character.Humanoid.PlatformStand = false
+end
+mouse.KeyDown:connect(function(key)
+if key:lower() == "q" then
+if flying then flying = false
+else
+flying = true
+Fly()
+end
+elseif key:lower() == "w" then
+ctrl.f = 1
+elseif key:lower() == "s" then
+ctrl.b = -1
+elseif key:lower() == "a" then
+ctrl.l = -1
+elseif key:lower() == "d" then
+ctrl.r = 1
+end
+end)
+mouse.KeyUp:connect(function(key)
+if key:lower() == "w" then
+ctrl.f = 0
+elseif key:lower() == "s" then
+ctrl.b = 0
+elseif key:lower() == "a" then
+ctrl.l = 0
+elseif key:lower() == "d" then
+ctrl.r = 0
+end
+end)
+Fly()
+end)
+--[[ Why the fuck are you looking here? If your editing the script and using it for your own credit me or I'll rape you. -Pnyx ]]--
+_G.dontdel = true
+SSSpoint.MouseButton1Down:connect(function()
+if _G.dontdel == true then
+game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.workspace.Terrain.GameFolder.Workspace:FindFirstChild("Spawn"))
+wait(0.35)
+game.Players.LocalPlayer.Backpack.Delete.delete:FireServer(game.workspace.Terrain.GameFolder.Workspace:FindFirstChild("Spawn"))
+wait(0.35)
+local A_1 = game.Workspace.Terrain.GameFolder.Workspace.Spawn
+local A_2 = CFrame.new(game.Players.LocalPlayer.Character["Left Leg"].Position)
+local Event = game.Players.LocalPlayer.Backpack.Move.setPos
+Event:FireServer(A_1, A_2)
+_G.dontdel = false
+elseif _G.dontdel == false then
+if game.Players.LocalPlayer.Backpack.Move.setPos then
+local A_1 = game.Workspace.Terrain.GameFolder.Workspace.Spawn
+local A_2 = CFrame.new(game.Players.LocalPlayer.Character["Left Leg"].Position)
+local Event = game.Players.LocalPlayer.Backpack.Move.setPos
+Event:FireServer(A_1, A_2)
+end
+end
+end)
+
+_G.BtoolsCheck = true
+while _G.BtoolsCheck == true do wait(5)
+if not game:GetService("Players").LocalPlayer.Backpack:FindFirstChild("Delete") then
+game:GetService'Players':Chat(":btools me")
+end
+end
+
+SpoofCmd.MouseButton1Down:connect(function()
+	game.Players:Chat(tostring(CommandSpoofBox.Text))
+end)

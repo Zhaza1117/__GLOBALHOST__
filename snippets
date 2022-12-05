@@ -1,0 +1,52 @@
+try:
+    req = requests.get('https://google.com', proxies={'http': proxy, 'https': proxy}, timeout=3)
+    print(req.json)
+except:
+    print('404 - Server Malfunction')
+    pass
+
+----------------------------------------------------
+import requests
+
+response = requests.get("http://www.google.com")
+print response.content
+print response.content == response.text
+True
+
+print response.content == response.text
+False
+print str(response.content) == response.text
+True
+-----------------------------------------------------
+import json
+import requests as reqs
+
+# Make the HTTP request.
+response = reqs.get('http://demo.ckan.org/api/3/action/group_list')
+
+# Use the json module to load CKAN's response into a dictionary.
+response_dict = json.loads(response.text)
+
+for i in response_dict:
+    print("key: ", i, "val: ", response_dict[i])
+
+    print(response.__dict__)
+
+
+-------------------------------------------------------
+
+import cgi
+import cgitb
+import sys
+
+cgitb.enable()
+
+form = cgi.FieldStorage()
+fileitem = form['img']
+bmp = fileitem.file.read()
+
+print('Content-Type: img/bmp\r\n\r\n', end='', flush=True)
+# just send back the original image unmodified
+sys.stdout.buffer.write(bmp)
+
+-0-----------------------------------------------------
